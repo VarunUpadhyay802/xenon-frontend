@@ -21,7 +21,7 @@ const Signup = () => {
         setLoading(true); // Show loader
 
         try {
-            const response = await fetch(`https://xenon-backend-ehaj.onrender.com/createuser`, {
+            const response = await fetch(`https://xenon-backend-ehaj.onrender.com/api/auth/createuser`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
