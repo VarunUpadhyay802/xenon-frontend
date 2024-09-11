@@ -1,64 +1,54 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import CountUp from 'react-countup';
 import ten from '../../assets/ten.png';
 import happy from '../../assets/happy.png';
 import accuracy from '../../assets/accuracy.png';
 import success from '../../assets/success.png';
 
-function useCounterAnimation(initialCount, targetCount, intervalTime) {
-    const [count, setCount] = useState(initialCount);
-
-    useEffect(() => {
-        if (count < targetCount) {
-            const interval = setInterval(() => {
-                setCount(prevCount => prevCount + 1);
-            }, intervalTime);
-            return () => clearInterval(interval);
-        }
-    }, [count, targetCount, intervalTime]);
-
-    return count;
-}
-
 function Count() {
-    const count = useCounterAnimation(0, 400, 1);
-    const count1 = useCounterAnimation(0, 98, 10);
-    const count2 = useCounterAnimation(0, 100, 10);
-    const count3 = useCounterAnimation(0, 10, 100);
-
     return (
         <div>
-            <section className="body-font">
+            <section className="body-font bg-gray-100 py-10">
                 <div className="container px-5 mb-8 mx-auto">
-                    <div className="flex flex-col text-center w-full mb-4">
-                        <h1 className="sm:text-6xl text-4xl font-bold title-font mb-4">Our Feats</h1>
+                    <div className="flex flex-col text-center w-full mb-8">
+                        <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Our Achievements</h1>
+                        <p className="text-lg text-gray-600">Delivering the best vacation experiences with top-tier homes</p>
                     </div>
                     <div className="flex flex-wrap -m-4 text-center">
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="px-4 py-6 flex flex-col items-center">
-                                <img src={happy} alt="Happy Customers" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
-                                <h2 className="title-font font-bold text-3xl">{count}+</h2>
-                                <p className="leading-relaxed">Happy Customers</p>
+                            <div className="bg-white shadow-lg rounded-lg px-4 py-6 flex flex-col items-center">
+                                <img src={happy} alt="Happy Guests" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
+                                <h2 className="title-font font-bold text-3xl text-gray-800">
+                                    <CountUp end={400} duration={3} />+
+                                </h2>
+                                <p className="leading-relaxed text-gray-600">Happy Guests</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="px-4 py-6 flex flex-col items-center">
-                                <img src={accuracy} alt="Accuracy" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
-                                <h2 className="title-font font-bold text-3xl">Upto {count1}%</h2>
-                                <p className="leading-relaxed">Accurate</p>
+                            <div className="bg-white shadow-lg rounded-lg px-4 py-6 flex flex-col items-center">
+                                <img src={accuracy} alt="Home Listings" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
+                                <h2 className="title-font font-bold text-3xl text-gray-800">
+                                    <CountUp end={98} duration={3} />%
+                                </h2>
+                                <p className="leading-relaxed text-gray-600">Listing Accuracy</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="px-4 py-6 flex flex-col items-center">
-                                <img src={success} alt="Successful Tests" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
-                                <h2 className="title-font font-bold text-3xl">{count2}+</h2>
-                                <p className="leading-relaxed">Successful Tests</p>
+                            <div className="bg-white shadow-lg rounded-lg px-4 py-6 flex flex-col items-center">
+                                <img src={success} alt="Bookings" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
+                                <h2 className="title-font font-bold text-3xl text-gray-800">
+                                    <CountUp end={100} duration={3} />+
+                                </h2>
+                                <p className="leading-relaxed text-gray-600">Successful Bookings</p>
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="px-4 py-6 flex flex-col items-center">
-                                <img src={ten} alt="Expert in Skin Diseases" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
-                                <h2 className="title-font font-bold text-3xl">Expert in {count3}+</h2>
-                                <p className="leading-relaxed">Skin Diseases and Conditions</p>
+                            <div className="bg-white shadow-lg rounded-lg px-4 py-6 flex flex-col items-center">
+                                <img src={ten} alt="Vacation Destinations" className="w-24 h-24 md:w-32 md:h-32 mx-5"/>
+                                <h2 className="title-font font-bold text-3xl text-gray-800">
+                                    <CountUp end={10} duration={3} />+
+                                </h2>
+                                <p className="leading-relaxed text-gray-600">Top Destinations</p>
                             </div>
                         </div>
                     </div>

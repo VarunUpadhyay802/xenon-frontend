@@ -21,7 +21,7 @@ const Navbar = () => {
                     </label>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to="/" role="button" >Home</Link></li>
-                        <li><Link to="/diseases" role="button"></Link></li>
+                  
                         <li><Link to="/about" role="button">About</Link></li>
                     </ul>
                 </div>

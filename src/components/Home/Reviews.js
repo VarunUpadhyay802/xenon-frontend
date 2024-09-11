@@ -23,7 +23,7 @@ const Reviews = () => {
                         <div class="h-full text-center">
                             <img alt="testimonial"
                                 class="w-20 h-20 mb-8 object-cover object-center rounded-xl inline-block border-2 border-gray-200 bg-gray-100"
-                                src=" man.png"/>
+                                src="/man.png"/>
                             <p class="leading-relaxed">"The beach house rental exceeded all of our expectations! We enjoyed daily beach walks, and the sunset views were simply amazing. The house was clean, spacious, and well-equipped."</p>
                             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
                             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">James Patterson</h2>
