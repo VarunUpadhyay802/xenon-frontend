@@ -8,7 +8,7 @@ const PropertyListing = () => {
 
   useEffect(() => {
     // Simulate fetching data from backend API
-    fetch("http://localhost:5000/api/properties")
+    fetch("https://xenon-backend-ehaj.onrender.com/api/properties")
       .then((response) => response.json())
       .then((data) => {
         setProperties(data);
