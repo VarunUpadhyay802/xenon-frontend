@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import Page_404 from './components/Page_404';
 import Home from './components/Home';
-import Diseases from './components/Diseases';
+
 
 
 function App() {
