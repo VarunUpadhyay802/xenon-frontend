@@ -19,29 +19,29 @@ const Gallery = () => {
                         <div class="flex flex-wrap w-1/2">
                             <div class="md:p-2 p-1 w-1/2">
                                 <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                    src="https://www.luxuryretreats.com/photos/7d354495-d6e7-48c3-b84a-5d1f0c847ab0.jpg" />
+                                    src="/img-2.jpg" />
                             </div>
                             <div class="md:p-2 p-1 w-1/2">
                                 <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                    src="https://www.vacationrentals.com/rental/12345/hero-800x400.jpg" />
+                                     src="/img-2.jpg" />
                             </div>
                             <div class="md:p-2 p-1 w-full">
                                 <img alt="gallery" class="w-full h-full object-cover object-center block"
-                                    src="https://www.beachvacationhomes.com/wp-content/uploads/2021/03/BeachHouse-Exterior.jpg" />
+                                     src="/img-2.jpg" />
                             </div>
                         </div>
                         <div class="flex flex-wrap w-1/2">
                             <div class="md:p-2 p-1 w-full">
                                 <img alt="gallery" class="w-full h-full object-cover object-center block"
-                                    src="https://www.cabinhomes.com/wp-content/uploads/2018/09/cabinretreat.jpg" />
+                                    src="/img-2.jpg" />
                             </div>
                             <div class="md:p-2 p-1 w-1/2">
                                 <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                    src="https://www.itrip.net/photos/rental-beach-house-pool-800x400.jpg" />
+                                    src="/img-2.jpg" />
                             </div>
                             <div class="md:p-2 p-1 w-1/2">
                                 <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                    src="https://cdn.travelpulse.com/images/99999999-9999-9999-9999-999999999999/e8a7ba27-86e3-dc32-139b-3084f09d080f/630x355.jpg" />
+                                 src="/img-2.jpg" />
                             </div>
                         </div>
                     </div>
