@@ -51,7 +51,14 @@ This project includes the following pages and functionalities:
 - **Backend: Deployed on Render(https://xenon-backend-ehaj.onrender.com)
 ## Screenshots
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/86a5dd6c-6d0e-4dd2-845f-4f534f4e3762" alt="Screenshot 1" width="300" /> <img src="https://github.com/user-attachments/assets/5368e99d-46c3-430d-aa52-1561de6f35cb" alt="Screenshot 2" width="300" /> <img src="https://github.com/user-attachments/assets/092b9790-40c6-41d7-9122-c93a14bc9a43" alt="Screenshot 3" width="300" /> <img src="https://github.com/user-attachments/assets/2d18c31b-9fd5-4c8e-9f5c-ef93eed6d94b" alt="Screenshot 4" width="300" /> <img src="https://github.com/user-attachments/assets/aa3435ed-9ec8-4a3c-8992-7823eb8dea6f" alt="Screenshot 5" width="300" /> <img src="https://github.com/user-attachments/assets/2fdcca89-46b6-4654-8a2e-12ac3ce90804" alt="Screenshot 6" width="300" /> <img src="https://github.com/user-attachments/assets/030f8b10-de6e-4852-ae11-6a8accc6ec0c" alt="Screenshot 7" width="300" /> </div>
+<div align="center"> 
+   <img src="https://github.com/user-attachments/assets/86a5dd6c-6d0e-4dd2-845f-4f534f4e3762" alt="Screenshot 1"  /> 
+   <img src="https://github.com/user-attachments/assets/5368e99d-46c3-430d-aa52-1561de6f35cb" alt="Screenshot 2"  /> 
+   <img src="https://github.com/user-attachments/assets/092b9790-40c6-41d7-9122-c93a14bc9a43" alt="Screenshot 3"  /> 
+   <img src="https://github.com/user-attachments/assets/2d18c31b-9fd5-4c8e-9f5c-ef93eed6d94b" alt="Screenshot 4"  /> 
+   <img src="https://github.com/user-attachments/assets/aa3435ed-9ec8-4a3c-8992-7823eb8dea6f" alt="Screenshot 5"  /> 
+   <img src="https://github.com/user-attachments/assets/2fdcca89-46b6-4654-8a2e-12ac3ce90804" alt="Screenshot 6"  /> 
+   <img src="https://github.com/user-attachments/assets/030f8b10-de6e-4852-ae11-6a8accc6ec0c" alt="Screenshot 7"  /> </div>
 
 
 
