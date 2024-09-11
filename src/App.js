@@ -2,6 +2,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import PropertyListing from "./components/PropertyListing"
 import {
   BrowserRouter,
   Routes,
@@ -30,6 +31,8 @@ function App() {
             <Route exact path="/signup" element={<Signup />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/property" element={<PropertyListing />} />
+          
           
             <Route exact path="/*" element={<Page_404/>} />
         

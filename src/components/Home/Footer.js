@@ -11,7 +11,7 @@ const Footer = () => {
                             className="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
                             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                         </svg>
-                        <span className="ml-3 text-xl">Vacation Haven</span>
+                        <span className="ml-3 text-xl">XenonStay</span>
                     </a>
                     <p className="mt-2 text-sm text-gray-500">Your gateway to unforgettable stays and personalized experiences.</p>
                 </div>
@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="bg-gray-200">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                     <p className="text-gray-500 text-sm text-center sm:text-left">
-                        &copy; {new Date().getFullYear()} Vacation Haven. All rights reserved.
+                        &copy; {new Date().getFullYear()} XenonStay . All rights reserved.
                     </p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                         <a href="https://twitter.com" className="text-gray-500" target="_blank" rel="noopener noreferrer">

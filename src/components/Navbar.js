@@ -45,9 +45,11 @@ const Navbar = () => {
                 About
               </Link>
             </li>
+
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl text-blue-600">Xenon</a>
+        <Link to="/">   <a className="btn btn-ghost normal-case text-xl text-blue-600">XenonStay</a></Link>
+
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -61,6 +63,12 @@ const Navbar = () => {
               About
             </Link>
           </li>
+          <li>
+            <Link to="/contact" className="text-blue-500">
+              Contact
+            </Link>
+          </li>
+
         </ul>
       </div>
       {!localStorage.getItem('token') ? (
