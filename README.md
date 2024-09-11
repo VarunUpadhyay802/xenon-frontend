@@ -37,6 +37,7 @@ This project includes the following pages and functionalities:
 - **Property Listings**: Browse and view property details.
 - **Search Functionality**: Search properties by title and other criteria.
 - **Responsive Design**: Optimized for desktop and mobile devices.
+![image](https://github.com/user-attachments/assets/b874698e-785b-4632-97f9-f4c477779452)
 
 ## Installation Instructions
 
@@ -48,5 +49,17 @@ This project includes the following pages and functionalities:
 
 - **Frontend: Deployed on Vercel (https://xenon-frontend-nine.vercel.app/property)
 - **Backend: Deployed on Render(https://xenon-backend-ehaj.onrender.com)
+## Screenshots
+![image](https://github.com/user-attachments/assets/86a5dd6c-6d0e-4dd2-845f-4f534f4e3762)
+![image](https://github.com/user-attachments/assets/5368e99d-46c3-430d-aa52-1561de6f35cb)
+![image](https://github.com/user-attachments/assets/092b9790-40c6-41d7-9122-c93a14bc9a43)
+![image](https://github.com/user-attachments/assets/2d18c31b-9fd5-4c8e-9f5c-ef93eed6d94b)
+![image](https://github.com/user-attachments/assets/aa3435ed-9ec8-4a3c-8992-7823eb8dea6f)
+![image](https://github.com/user-attachments/assets/2fdcca89-46b6-4654-8a2e-12ac3ce90804)
+![image](https://github.com/user-attachments/assets/030f8b10-de6e-4852-ae11-6a8accc6ec0c)
+![Uploading image.png…]()
+
+
+
 
 
