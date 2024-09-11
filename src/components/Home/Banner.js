@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className="relative bg-cover bg-center text-white py-24 px-6" style={{ backgroundImage: "url('/public/pexels-pixabay-346286.jpg')" 
+    <div className="relative bg-cover bg-center text-white py-24 px-6" style={{backgroundImage: "url('/pexels-pixabay-346286.jpg')" 
 }}>
       <div className="absolute inset-0 bg-blue-900 opacity-50"></div>
       <div className="relative z-10 text-center">
